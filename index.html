@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Local Storage</title>
+</head>
+<body>
+
+    <h1>Using Local Storage Api</h1>
+    <p>Local Storage let you save data in your browser for the longer run.
+        The data is stored against the website address in the form of key/value pair.
+    </p>
+    <h2>How store data in LS</h2>
+    <p>The data is only stored as <strong>String</strong>, first we need to convert Array or Object into String using <strong>JSON.stringify</strong> </p>
+
+    <h4>To see data in Browser</h4>
+    <ol>
+        <li>Go to Developer Tool by pressing F12</li>
+        <li>Press Application tab</li>
+        <li>In the local Storage section expand <strong>Local Storage</strong> </li>
+    </ol>
+
+    <div class="btn-div">
+        <button id="clearData" type="reset">Clear All Data</button>
+    </div>
+    
+    <script src="./Script.js"></script>
+</body>
+</html>
